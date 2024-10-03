@@ -1,0 +1,129 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
+  <diagram name="Page-1" id="m86IOtoyOujGIHVfmW9k">
+    <mxGraphModel dx="2333" dy="2338" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="X77eBvlFy9QfC1t43Tsb-6" value="Department" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="150" y="280" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="X77eBvlFy9QfC1t43Tsb-10" value="Department_ID&lt;div&gt;Department_Name&lt;/div&gt;&lt;div&gt;Department_Location&lt;/div&gt;&lt;div&gt;Department_E-mail&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="X77eBvlFy9QfC1t43Tsb-6" vertex="1">
+          <mxGeometry y="30" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="X77eBvlFy9QfC1t43Tsb-12" value="Job" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="110" y="490" width="170" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="X77eBvlFy9QfC1t43Tsb-16" value="Job_ID&amp;nbsp;&lt;div&gt;Job_Title&lt;/div&gt;&lt;div&gt;Job_Descriptions&lt;/div&gt;&lt;div&gt;Salary_Range&lt;/div&gt;&lt;div&gt;Application_Deadline&lt;/div&gt;&lt;div&gt;Qualifications&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="X77eBvlFy9QfC1t43Tsb-12" vertex="1">
+          <mxGeometry y="30" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="X77eBvlFy9QfC1t43Tsb-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=ERmany;startFill=0;endArrow=ERmany;endFill=0;" parent="1" source="X77eBvlFy9QfC1t43Tsb-10" target="X77eBvlFy9QfC1t43Tsb-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X77eBvlFy9QfC1t43Tsb-22" value="Applicant" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="400" y="260" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="X77eBvlFy9QfC1t43Tsb-26" value="Applicant_ID&lt;div&gt;Applicant_Name&lt;/div&gt;&lt;div&gt;Applicant_Email ID&amp;nbsp;&lt;/div&gt;&lt;div&gt;Applicant_Phone Number&lt;/div&gt;&lt;div&gt;Address&lt;/div&gt;&lt;div&gt;Resume&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="X77eBvlFy9QfC1t43Tsb-22" vertex="1">
+          <mxGeometry y="30" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="X77eBvlFy9QfC1t43Tsb-29" value="Application" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="390" y="520" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="X77eBvlFy9QfC1t43Tsb-33" value="Application_ID&amp;nbsp;&lt;div&gt;Application_Status&lt;/div&gt;&lt;div&gt;Application_Date&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="X77eBvlFy9QfC1t43Tsb-29" vertex="1">
+          <mxGeometry y="30" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="X77eBvlFy9QfC1t43Tsb-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=ERone;startFill=0;endArrow=ERmany;endFill=0;" parent="1" source="X77eBvlFy9QfC1t43Tsb-26" target="X77eBvlFy9QfC1t43Tsb-29" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X77eBvlFy9QfC1t43Tsb-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;startArrow=ERone;startFill=0;endArrow=ERmany;endFill=0;" parent="1" source="X77eBvlFy9QfC1t43Tsb-16" target="X77eBvlFy9QfC1t43Tsb-33" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X77eBvlFy9QfC1t43Tsb-36" value="Interview" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="400" y="80" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="X77eBvlFy9QfC1t43Tsb-40" value="Interview_ID&lt;div&gt;Interviewer&lt;/div&gt;&lt;div&gt;Interview_Date&lt;/div&gt;&lt;div&gt;Interview_Time&amp;nbsp;&lt;/div&gt;&lt;div&gt;Interview_Status&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="X77eBvlFy9QfC1t43Tsb-36" vertex="1">
+          <mxGeometry y="30" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="X77eBvlFy9QfC1t43Tsb-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.442;entryY=0.001;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=ERone;endFill=0;startArrow=ERone;startFill=0;" parent="1" source="X77eBvlFy9QfC1t43Tsb-36" target="X77eBvlFy9QfC1t43Tsb-22" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X77eBvlFy9QfC1t43Tsb-43" value="Hiring Decision" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="400" y="-120" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="X77eBvlFy9QfC1t43Tsb-47" value="Offer_ID&lt;div&gt;Offer_Status&lt;/div&gt;&lt;div&gt;Offer_Details&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="X77eBvlFy9QfC1t43Tsb-43" vertex="1">
+          <mxGeometry y="30" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X77eBvlFy9QfC1t43Tsb-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=ERone;endFill=0;startArrow=ERone;startFill=0;" parent="1" source="X77eBvlFy9QfC1t43Tsb-47" target="X77eBvlFy9QfC1t43Tsb-36" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fkf7HGi2MrmHpYLMDONx-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;startArrow=ERmany;startFill=0;endArrow=ERone;endFill=0;" edge="1" parent="1" source="X77eBvlFy9QfC1t43Tsb-49" target="X77eBvlFy9QfC1t43Tsb-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X77eBvlFy9QfC1t43Tsb-49" value="Communication" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="400" y="-300" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="X77eBvlFy9QfC1t43Tsb-53" value="Communication_ID&amp;nbsp;&lt;div&gt;Communication_Date&lt;/div&gt;&lt;div&gt;Message_Type&lt;/div&gt;&lt;div&gt;Message_Date&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="X77eBvlFy9QfC1t43Tsb-49" vertex="1">
+          <mxGeometry y="30" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="X77eBvlFy9QfC1t43Tsb-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=ERone;endFill=0;startArrow=ERone;startFill=0;" parent="1" source="X77eBvlFy9QfC1t43Tsb-53" target="X77eBvlFy9QfC1t43Tsb-43" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X77eBvlFy9QfC1t43Tsb-55" value="Recruiter" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="665" y="30" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="X77eBvlFy9QfC1t43Tsb-59" value="Recruiter_id ,&amp;nbsp;&lt;div&gt;Recruiter_Name,&amp;nbsp;&lt;/div&gt;&lt;div&gt;Recruiter _E-mail,&amp;nbsp;&lt;/div&gt;&lt;div&gt;Phone_Number&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="X77eBvlFy9QfC1t43Tsb-55" vertex="1">
+          <mxGeometry y="30" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="X77eBvlFy9QfC1t43Tsb-61" value="Interview_Panel" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="760" y="230" width="145" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="X77eBvlFy9QfC1t43Tsb-66" value="Panel_ID&lt;div&gt;Panelist_Name&lt;/div&gt;&lt;div&gt;Panelist_Designation&lt;/div&gt;&lt;div&gt;Panelist_PhoneNumber&lt;/div&gt;&lt;div&gt;Panelist_Email_ID&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="X77eBvlFy9QfC1t43Tsb-61" vertex="1">
+          <mxGeometry y="30" width="145" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="X77eBvlFy9QfC1t43Tsb-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERone;endFill=0;startArrow=ERmany;startFill=0;" parent="1" source="X77eBvlFy9QfC1t43Tsb-40" target="X77eBvlFy9QfC1t43Tsb-61" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fkf7HGi2MrmHpYLMDONx-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=ERmany;startFill=0;endArrow=ERmany;endFill=0;" edge="1" parent="1" source="X77eBvlFy9QfC1t43Tsb-10" target="X77eBvlFy9QfC1t43Tsb-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fkf7HGi2MrmHpYLMDONx-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.502;entryY=1.038;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=ERone;startFill=0;endArrow=ERone;endFill=0;" edge="1" parent="1" source="X77eBvlFy9QfC1t43Tsb-16" target="X77eBvlFy9QfC1t43Tsb-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fkf7HGi2MrmHpYLMDONx-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=ERone;startFill=0;endArrow=ERmany;endFill=0;" edge="1" parent="1" source="X77eBvlFy9QfC1t43Tsb-16" target="X77eBvlFy9QfC1t43Tsb-49">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-140" y="-30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fkf7HGi2MrmHpYLMDONx-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.993;entryY=0.356;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=ERone;startFill=0;endArrow=ERone;endFill=0;" edge="1" parent="1" source="X77eBvlFy9QfC1t43Tsb-33" target="X77eBvlFy9QfC1t43Tsb-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fkf7HGi2MrmHpYLMDONx-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.004;entryY=0.303;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=ERone;startFill=0;endArrow=ERmany;endFill=0;" edge="1" parent="1" source="X77eBvlFy9QfC1t43Tsb-29" target="X77eBvlFy9QfC1t43Tsb-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fkf7HGi2MrmHpYLMDONx-8" value="Referral" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="765" y="440" width="145" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="fkf7HGi2MrmHpYLMDONx-12" value="Referral_ID&lt;div&gt;Referral_Status&lt;/div&gt;&lt;div&gt;Referrer_EmailID&lt;/div&gt;&lt;div&gt;Referral_Date&lt;/div&gt;&lt;div&gt;Referral_PhoneNumber&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="fkf7HGi2MrmHpYLMDONx-8">
+          <mxGeometry y="30" width="145" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="fkf7HGi2MrmHpYLMDONx-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.834;entryY=0.998;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=ERone;startFill=0;endArrow=ERone;endFill=0;" edge="1" parent="1" source="fkf7HGi2MrmHpYLMDONx-8" target="X77eBvlFy9QfC1t43Tsb-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fkf7HGi2MrmHpYLMDONx-21" value="Refers" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="660" y="440" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fkf7HGi2MrmHpYLMDONx-22" value="Applies" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=270;" vertex="1" parent="1">
+          <mxGeometry x="440" y="420" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fkf7HGi2MrmHpYLMDONx-28" value="Posts a Job" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="620" y="-20" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fkf7HGi2MrmHpYLMDONx-29" value="Interviews" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=270;" vertex="1" parent="1">
+          <mxGeometry x="690" y="180" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fkf7HGi2MrmHpYLMDONx-31" value="Status Communicated" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="620" y="-310" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
