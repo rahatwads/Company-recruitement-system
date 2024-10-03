@@ -1,4 +1,4 @@
-# University-course-registration-system
+# Company-recruitement-system
 # Group 3
 
 Names: Shivani Rahatwad 002734520
